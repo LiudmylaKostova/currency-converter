@@ -1,0 +1,72 @@
+.navList {
+  display: flex;
+}
+.navListItem:not(:last-child) {
+  margin-right: 20px;
+}
+.navListItem {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.navLink {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+.navlink--active,
+.navLink:hover,
+.navLink:focus {
+  font-weight: bold;
+  color: green;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.button-primary {
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(0, 128, 107);
+  border-radius: 8px;
+}
+.li {
+  margin-right: 28px;
+  text-align: center;
+}
+.p {
+  font-size: 20px;
+}
+.cur {
+  font-weight: 500;
+  color: green;
+  font-size: 20px;
+}
+.title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+.input {
+  border: 2px solid green;
+  border-radius: 3px;
+  padding: 0.3rem;
+  width: 10em;
+}
+select {
+  margin-left: 10px;
+  padding: 0.3rem;
+  width: 5em;
+}
+.equal {
+  font-weight: bold;
+  text-align: center;
+}
+.wrapper {
+  text-align: center;
+}
